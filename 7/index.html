@@ -1,0 +1,29 @@
+<html>
+    <head>
+		<meta charset="UTF-8" />
+		<title>Web технологии домашна работа №7</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="script.js"></script>
+    </head>
+    <body onload="setup()">
+		<button onclick="restart()" class="start">Restart</button>
+        <div class="board">
+            <div class="row">
+                <div onclick="makeMove(this)" class="tile"></div>
+                <div onclick="makeMove(this)" class="tile"></div>
+                <div onclick="makeMove(this)" class="tile"></div>
+            </div>
+            <div class="row">
+                <div onclick="makeMove(this)" class="tile"></div>
+                <div onclick="makeMove(this)" class="tile"></div>
+                <div onclick="makeMove(this)" class="tile"></div>
+            </div>
+            <div class="row">
+                <div onclick="makeMove(this)" class="tile"></div>
+                <div onclick="makeMove(this)" class="tile"></div>
+                <div onclick="makeMove(this)" class="tile"></div>
+            </div>
+        </div>
+		<div class="msg" id="msg"></div>
+    </body>
+</html>

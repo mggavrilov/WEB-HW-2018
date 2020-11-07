@@ -1,0 +1,55 @@
+﻿.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 95vh;
+}
+
+.regform {
+	display: flex;
+	flex-flow: column wrap;
+	width: 400px;
+	padding: 20px;
+	background-color: whitesmoke;
+	border: 1px solid black;
+}
+
+.registration {
+	background-color: yellowgreen;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin: -21px -21px 10px -21px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.error {
+	word-wrap: normal;
+	background-color: orangered;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.noerror {
+	display: hidden;
+}
+
+input {
+	padding: 10px;
+	margin: 10px 0px;
+	border: 1px solid lightgrey;
+}
+
+input#submit {
+	background-color: yellowgreen;
+	color: white;
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}

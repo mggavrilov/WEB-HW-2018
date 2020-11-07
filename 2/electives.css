@@ -1,0 +1,7 @@
+.electivesForm input,
+.electivesForm textarea,
+.electivesForm select {
+	display: block;
+	padding: 5px;
+	margin: 10px;
+}

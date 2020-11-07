@@ -1,0 +1,13 @@
+﻿CREATE TABLE electives (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(128),
+  description VARCHAR(1024),
+  lecturer VARCHAR(128),
+  created_at DATETIME
+);
+
+INSERT INTO electives (title, description, lecturer, created_at)
+VALUES
+  ("Programming with Go", "Let's learn Go", "Nikolay Batchiyski", NOW()),
+  ("AKDU", "Let's Graduate", "Svetlin Ivanov", NOW()),
+  ("Web technologies", "Let's learn the web", "Milen Petrov", NOW());

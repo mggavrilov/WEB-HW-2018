@@ -1,0 +1,140 @@
+.container {
+	width: 90%;
+}
+
+.navbar {
+	height: 100%;
+	width: 20%;
+	position: fixed;
+	z-index: 1;
+	left: 5%;
+	top: 0px;
+	overflow-x: hidden;
+	padding-top: 50px;
+}
+
+.navbar a {
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid lightgrey;
+	text-transform: uppercase;
+	color: grey;
+	text-decoration: none;
+}
+
+.navbar a:hover, div.navbar .selected {
+	background-color: yellowgreen;
+	color: white;
+}
+
+.topmenu {
+	float: right;
+}
+
+div.topmenu .btn {
+	margin: 0px 10px;
+}
+
+div.content .btn {
+	margin: 10px 0px;
+}
+
+.btn {
+	border: solid 1px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 12px;
+	font-size: 16px;
+	padding: 8px;
+}
+
+.btn1 {
+	background-color: yellowgreen;
+	color: white;
+}
+
+.btn2 {
+	background-color: white;
+	color: yellowgreen;
+}
+
+.btn1:hover {
+	background-color: white;
+	color: yellowgreen;
+	border-color: yellowgreen;
+}
+
+.btn2:hover {
+	background-color: yellowgreen;
+	color: white;
+}
+
+.content {
+	margin-left: 28%;
+	top: 50px;
+	height: 100%;
+	width: 70%;
+	position: relative;
+	padding: 0px 10px;
+}
+
+.subject {
+	color: yellowgreen;
+	display: block;
+	border-bottom: 1px solid lightgrey;
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.lecturer, .commentsection {
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 0px;
+}
+
+.description {
+	display: block;
+}
+
+.subjectfield {
+	display: block;
+	margin: 10px 0px;
+}
+
+.fieldname {
+	font-style: italic;
+}
+
+.addcomment {
+	width: 100%;
+	height: 150px;
+	padding: 10px 0px 10px 15px;
+	border: 1px solid lightgrey;
+	border-radius: 12px;
+	resize: none;
+}
+
+.comment {
+	display: block;
+	border-bottom: 1px solid lightgrey;
+	padding: 10px 0px;
+}
+
+.commentauthor {
+	color: deepskyblue;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.commentdate {
+	display: inline-block;
+	font-size: 11px;
+}
+
+.commentcontent {
+	display: block;
+	padding: 10px 3px;
+}
